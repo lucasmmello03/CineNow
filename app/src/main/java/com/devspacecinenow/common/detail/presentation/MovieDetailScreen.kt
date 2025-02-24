@@ -1,4 +1,4 @@
-package com.devspacecinenow
+package com.devspacecinenow.common.detail.presentation
 
 import android.util.Log
 import androidx.compose.foundation.background
@@ -19,6 +19,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import coil.compose.AsyncImage
+import com.devspacecinenow.ApiService
+import com.devspacecinenow.common.model.MovieDto
+import com.devspacecinenow.common.data.RetrofitClient
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
